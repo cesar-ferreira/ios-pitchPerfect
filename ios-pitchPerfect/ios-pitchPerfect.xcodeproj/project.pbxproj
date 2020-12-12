@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		BFC352482584504500570CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC352472584504500570CD3 /* AppDelegate.swift */; };
 		BFC3524A2584504500570CD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC352492584504500570CD3 /* SceneDelegate.swift */; };
-		BFC3524C2584504500570CD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3524B2584504500570CD3 /* ViewController.swift */; };
+		BFC3524C2584504500570CD3 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3524B2584504500570CD3 /* RecordSoundsViewController.swift */; };
 		BFC3524F2584504500570CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC3524D2584504500570CD3 /* Main.storyboard */; };
 		BFC352512584504A00570CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC352502584504A00570CD3 /* Assets.xcassets */; };
 		BFC352542584504A00570CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC352522584504A00570CD3 /* LaunchScreen.storyboard */; };
+		BFC3525C25855F6600570CD3 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC3525B25855F6600570CD3 /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFC352442584504500570CD3 /* ios-pitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-pitchPerfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC352472584504500570CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFC352492584504500570CD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFC3524B2584504500570CD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFC3524B2584504500570CD3 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		BFC3524E2584504500570CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFC352502584504A00570CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC352532584504A00570CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFC352552584504A00570CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC3525B25855F6600570CD3 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				BFC352472584504500570CD3 /* AppDelegate.swift */,
 				BFC352492584504500570CD3 /* SceneDelegate.swift */,
-				BFC3524B2584504500570CD3 /* ViewController.swift */,
+				BFC3524B2584504500570CD3 /* RecordSoundsViewController.swift */,
+				BFC3525B25855F6600570CD3 /* PlaySoundsViewController.swift */,
 				BFC3524D2584504500570CD3 /* Main.storyboard */,
 				BFC352502584504A00570CD3 /* Assets.xcassets */,
 				BFC352522584504A00570CD3 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC3524C2584504500570CD3 /* ViewController.swift in Sources */,
+				BFC3524C2584504500570CD3 /* RecordSoundsViewController.swift in Sources */,
 				BFC352482584504500570CD3 /* AppDelegate.swift in Sources */,
+				BFC3525C25855F6600570CD3 /* PlaySoundsViewController.swift in Sources */,
 				BFC3524A2584504500570CD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
