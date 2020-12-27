@@ -2,7 +2,7 @@
 //  PlaySoundsViewController.swift
 //  ios-pitchPerfect
 //
-//  Created by Altran3496 on 12/12/20.
+//  Created by César Ferreira on 12/12/20.
 //  Copyright © 2020 cesar. All rights reserved.
 //
 
